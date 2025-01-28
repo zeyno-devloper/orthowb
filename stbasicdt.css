@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f7f7;
+    color: #333;
+    direction: rtl;
+}
+
+/* Header */
+.header {
+    background-color: #008b8b;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header .reports ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.header .reports ul li {
+    margin: 0 10px;
+}
+
+.header .reports ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header .reports ul li a:hover {
+    background-color: #005f5f;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f0f8ff;
+    padding: 20px;
+    width: 200px;
+    float: right;
+    height: calc(100vh - 60px);
+}
+
+.sidebar h3 {
+    color: #008b8b;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Content */
+.content {
+    margin-right: 220px;
+    padding: 20px;
+}
+
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    color: #008b8b;
+    margin-bottom: 20px;
+}
+
+.form-column {
+    margin-bottom: 20px;
+}
+
+.form-column label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-column input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Actions Section */
+.actions button {
+    background-color: #008b8b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #005f5f;
+}
+
+/* Footer */
+.footer {
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #555;
+}

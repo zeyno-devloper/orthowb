@@ -1,0 +1,103 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbeef3; /* خلفية تعبر عن الأنوثة والهدوء */
+    color: #4a4a4a;
+    line-height: 1.6;
+    direction: rtl;
+}
+
+/* Header styles */
+.main-header {
+    background-color: #ffe3ea; /* وردي فاتح */
+    color: #4a4a4a;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #9c5677; /* بنفسجي ناعم */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #9c5677;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #d17b98; /* لون أغمق عند التمرير */
+}
+
+/* Main content styles */
+.content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.welcome-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h2 {
+    color: #9c5677;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.welcome-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.welcome-section button {
+    background-color: #d17b98;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.welcome-section button:hover {
+    background-color: #b25f7f;
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+.main-footer {
+    background-color: #ffe3ea;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 14px;
+}

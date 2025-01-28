@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    direction: rtl;
+}
+.navbar-custom {
+    background-color: #008b8b; /* لون مخصص للشريط */
+}
+.navbar-custom .nav-link, .navbar-custom .navbar-brand {
+    color: white; /* لون النصوص */
+}
+.navbar-custom .nav-link:hover {
+    color: #ffd700; /* لون عند التمرير */
+}
+/* الشريط العلوي */
+.top-bar {
+    background-color: #008b8b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* شريط الأزرار */
+.buttons-bar {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.buttons-bar button {
+    background-color: #008b8b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons-bar button:hover {
+    background-color: #005f5f;
+}
+
+/* الحاوية الرئيسية */
+.main-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* شريط الأدوات */
+.sidebar {
+    direction: ltr;
+    width: 200px;
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #008b8b;
+}
+
+.sidebar button {
+    background-color: #ffffff;
+    color: #008b8b;
+    border: 1px solid #008b8b;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #008b8b;
+    color: white;
+}
+
+/* المساحة الوسطى */
+.content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* الشريط السفلي */
+.footer {
+    background-color: #008b8b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}

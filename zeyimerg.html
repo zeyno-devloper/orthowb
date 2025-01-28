@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زيمرغ للخدمات التقنية</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <h1>زيمرغ للخدمات التقنية</h1>
+            <Picture ></Picture>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">خدماتنا</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="header">
+            <button class="header-button" onclick="showSignIn()">SIGN IN</button>
+            <button class="header-button" onclick="showSignUp()">SIGN UP</button>
+        </div>
+        <div class="content" id="content">
+            <!-- محتوى تسجيل الدخول الافتراضي -->
+            <h2>DOCTOR'S DATA</h2>
+            <form>
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                
+                <div class="buttons">
+                    <button type="submit" class="sign-in">SIGN IN</button>
+                    <button type="button" class="exit">EXIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- استدعاء ملف JavaScript -->
+    <script src="script.js"></script>
+
+    <main class="content">
+        <section class="welcome-section">
+            <h2>مرحباً بكم في زيمرغ للخدمات التقنية</h2>
+            <p>نقدم لكِ حلول تقنية مبتكرة تساعدكِ في تحقيق أهدافكِ بكل سهولة ويسر.</p>
+            <button onclick="alert('مرحباً! نحن هنا لخدمتكِ.')">تعرفي أكثر</button>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2025 زيمرغ للخدمات التقنية. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
