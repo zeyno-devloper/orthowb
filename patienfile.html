@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Patient Form</title>
+    <link rel="stylesheet" href="patienfile.css">
+    <!-- رابط مكتبة FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-    jjjjjjjjjjjjjjjjjjjjjjjj
+    <div class="container">
+        <!-- الكتلة الأولى -->
+        <div class="block">
+            <h3 class="block-title">Patient Information</h3>
+            <div class="form-group">
+                <label for="file-no">File No</label>
+                <input type="text" id="file-no" disabled>
+            </div>
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter First Name">
+            </div>
+            <div class="form-group">
+                <label for="father-name">Father Name</label>
+                <input type="text" id="father-name" placeholder="Enter Father Name">
+            </div>
+            <div class="form-group">
+                <label for="grand-name">Grand Name</label>
+                <input type="text" id="grand-name" placeholder="Enter Grand Name">
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" placeholder="Enter Surname">
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter Age">
+            </div>
+        </div>
+
+        <!-- كتلة أخرى كمثال -->
+        <div class="block">
+            <h3 class="block-title">Contact Details</h3>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Enter Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email">
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
